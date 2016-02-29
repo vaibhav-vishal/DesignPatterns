@@ -21,7 +21,7 @@ Logger log = Logger.getLogger(this.getClass().getName());
 
 	public HashMap<String,String> getDetails() {
 	
-		log.info("In flightDetails");
+		System.out.println("In flightDetails");
 		
 		return flights;
 		

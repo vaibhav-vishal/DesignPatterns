@@ -8,7 +8,7 @@ public class Client {
 
 		Logger log = Logger.getLogger("Main");
 		FacadeDetails facade = new FacadeDetails();
-		log.info(""+facade.getDetails().toString());
+		System.out.println(""+facade.getDetails().toString()+"\n");
 	}
 
 }

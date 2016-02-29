@@ -6,7 +6,7 @@ Logger log = Logger.getLogger(this.getClass().getName());
 	
 	public HashMap<String, String> getDetails() {
 		
-		log.info("inside facadeDetails");
+		System.out.println("inside facadeDetails");
 		
 		HashMap<String, String> allDetails = new HashMap<>(10) ;
 		
